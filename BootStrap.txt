@@ -1,0 +1,81 @@
+BOOTSTRAP
+
+3 solutions pour un site
+- from scratch
+- avec framework css
+- avec cms (content management system)
+
+Framework (ou bibliothèque pour PHP) = ensemble de fichiers qu'on récupère sur internet qu'on lie à la feuille HTML pour appliquer la mise en forme déjà faite et on peut retravailler cela.
+
+Certains incluent du Javascript
+
+Bibliothèque JQuery = on peut copier le code BootStrap (BS) pour faire un caroussel (slideshow).
+
+Dans le framework BS on a des fonctionnalités javascript (JS).
+
+Pour modifier le framework cela peut être compliqué avec une surcharge CSS :
+	.un{
+		background-color: blue;
+	}
+	.un{
+		background-color: red;
+	}
+	=> ici on a une surcharge CSS car la ^m class a 2 attributs différents 
+	=> le 2nd s'applique car le CSS se lit de haut en bas
+	
+Sites :
+getbootstrap.com
+purecss.io
+foundation.zurb.com
+
+avec BS on a un site responsive tt de suite
+très bonne compatibilité navigateurs
+
+un site non responsive n'est plus référencé dans google depuis mai 2015
+
+NB: on peut avoir plusieurs class sur  meme element
+
+Sur BS less et sass permettent d'écrire plus vite proche du CSS mais avec d'autres compétences, permet de modifier BD
+
+content delivery network (CDN) on héberge directement les fichiers sur internet et non sur un serveur (sur internet en CDN on ne peut pas les consulter)
+
+bootstrap.css
+fichier css de base, prêt à l'emploi
+par défaut du code sur le html
+==> on commence par créer son container dans le body
+
+bootstrap.css.map
+permet de se retouver plus facilement qd on est dans le fichier .min (minifié) c'est le même code 
+
+bootstrap.min.css
+fichier minifié (pas d'espace ni retour à la ligne car un espâce et un retour à la ligne est un caractère que l'utilisateur charge aussi même si on ne voit rien) => code en 1 seule ligne
+
+bootstrap-theme.css
+quand on veut faire son propre thème
+
+DOSSIER  FONT
+glyphicons-halflings-regular.eot...
+les glypheicones
+
+DOSSIER JS
+javascript déjà prêt
+
+UTF-8 sans bom = sans bom car certains copier-coller notaT XLS collent des éléments invisibles
+
+FAVICON est l'icone dans le nom de l'onglet
+
+CTRL+U ou F12 ouvre code source
+
+ds BS le responsive est basé sur un systeme de grille
+2 conteneurs
+
+ctrl+F5 = rafraichit sans passer par le cache
+
+BS part du principe que chaque élément de type bloc a 12 colonnes => cf GRID SYSTEM ds BS
+
+
+Si on veut changer par exemple une couleur on reprend la/les lignes CSS de bootstrap qu'on colle dans le CSS perso => on créé une surcharge
+On ne change pas le fichier CSS de bootstrap car une future mise à jour peut amener à avoir tt reprendre dans le fichier de bootstrap
+
+
+

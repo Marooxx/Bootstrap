@@ -1,0 +1,26 @@
+body{
+	padding-top: 70px;
+}
+
+h2{
+	background-color: #335;
+	color: #fff;
+	padding: 10px;
+	font-size:17px;
+}
+
+.rouge{
+	min-height: 35px;
+	background-color: darkred;
+}
+
+.bleu{
+	min-height: 35px;
+	background-color: navy;
+}
+
+.gris{
+	min-height: 35px;
+	background-color: lightslategray;
+}
+/*mettre les noms des classes en ttes lettres va plus vite car directement reconnu lors du chargement de la page*/
